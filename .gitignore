@@ -1,0 +1,14 @@
+*~
+*.swp
+*.iml
+.idea/
+.settings
+.cache
+/build/
+work/
+out/
+.DS_Store
+target/
+.project
+.classpath
+Thumbs.db
