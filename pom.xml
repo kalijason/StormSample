@@ -2,9 +2,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.yahoo.twdata</groupId>
-	<artifactId>HadoopSubmitStorm</artifactId>
+	<artifactId>StormSample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	
+	<properties>
+     <storm.topology>topology.TopologyMain</storm.topology>
+  </properties>
+  
 	<repositories>
 		<repository>
 			<id>github-releases</id>
@@ -88,7 +92,7 @@
 				</configuration>
 
 			</plugin>
-
+	
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
